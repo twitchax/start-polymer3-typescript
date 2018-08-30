@@ -1,0 +1,28 @@
+{
+  "entrypoint": "index.html",
+  "shell": "tsbuild/main-page.js",
+  "fragments": [
+    "tsbuild/lazy-element.js"
+  ],
+  "sources": [
+   "tsbuild/main-page.js",
+   "package.json"
+  ],
+  "extraDependencies": [
+    "node_modules/@webcomponents/webcomponentsjs/bundles/**"
+  ],
+  "builds": [
+    {
+      "name": "default",
+      "preset": "es6-bundled",
+      "bundle": true, 
+      "js": {"minify": true},
+      "css": {"minify": true},
+      "html": {"minify": true},
+      "addServiceWorker": true,
+      "addPushManifest": true
+    }
+  ],
+  "moduleResolution": "node",
+  "npm": true
+}

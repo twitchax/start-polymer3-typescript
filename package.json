@@ -1,0 +1,21 @@
+{
+  "name": "start-polymer3-typescript",
+  "version": "3.0.0",
+  "repository": "https://github.com/twitchax/start-polymer3-typescript.git",
+  "author": "Aaron Roney",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && polymer serve", 
+    "build": "tsc && polymer build"
+  },
+  "dependencies": {
+    "@polymer/paper-checkbox": "3.0.0-pre.25",
+    "@polymer/polymer": "3.0.5",
+    "@polymer/decorators": "3.0.0",
+    "@webcomponents/webcomponentsjs": "2.1.1"
+  },
+  "devDependencies": {
+    "typescript": "3.0.3",
+    "tslint": "^5.11.0"
+  }
+}
