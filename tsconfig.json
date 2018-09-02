@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "rootDir": "src",
-        "outDir": "./tsbuild/",
+        "outDir": "./buildts/",
         
         "target": "esnext",
         "module": "esnext",

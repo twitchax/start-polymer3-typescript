@@ -5,8 +5,8 @@ import '@polymer/paper-checkbox/paper-checkbox';
 import { PolymerElement, html } from '@polymer/polymer/polymer-element';
 import { customElement, property, query, listen } from "@polymer/decorators";
 import { PaperCheckboxElement } from '@polymer/paper-checkbox/paper-checkbox';
-import {GestureEventListeners} from '@polymer/polymer/lib/mixins/gesture-event-listeners.js';
-import {DeclarativeEventListeners} from '@polymer/decorators/lib/declarative-event-listeners.js';
+import { GestureEventListeners } from '@polymer/polymer/lib/mixins/gesture-event-listeners.js';
+import { DeclarativeEventListeners } from '@polymer/decorators/lib/declarative-event-listeners.js';
 
 @customElement('main-page')
 class MainPage extends GestureEventListeners(DeclarativeEventListeners(PolymerElement)) {
